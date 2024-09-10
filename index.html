@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Alert System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div style="width: 90%;"></div>
+            <button class="Profile"><img src="C:\Users\VICTUS\Weather Drive\Final Landing Page\User1.png" alt="Profile"></button>
+            <button class="login-button">Login</button>
+            
+            
+        </header>
+        <div class="search-bar">
+                <input type="text" placeholder="Search">
+        </div>
+
+        <div class="filters">
+            <div class="filter">
+                <label for="disaster-type">Disaster Type:</label>
+                <select id="disaster-type">
+                    <option>Earthquake</option>
+                    <option>Cyclone</option>
+                    <option>Flood</option>
+                    <option>Landslide</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="location">Location:</label>
+                <select id="location">
+                    <option>Delhi</option>
+                    <option>Odisha</option>
+                    <option>Kerala</option>
+                    <option>Himachal Pradesh</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="time">Time:</label>
+                <select id="time">
+                    <option>Past 24 hours</option>
+                    <option>Past week</option>
+                    <option>Past month</option>
+                </select>
+            </div>
+        </div>
+
+        <section class="live-feed-section">
+            <h2>Live Feed:</h2>
+            <div class="live-feed">
+                <a href="C:\Users\VICTUS\Documents\GitHub\Responsys-final\final\data\data.html">Earthquake of 7.1 magnitude hits Delhi and parts of Northern India</a>
+                <p>Cyclone warning issued in coastal areas of Odisha and Andhra Pradesh</p>
+                <p>Flood affected areas of Kerala need urgent attention</p>
+                <p>Heavy rainfall leads to landslide in Himachal Pradesh</p>
+                <p>Cloud burst in Kedarnath brings back bad memories</p>
+            </div>
+        </section>
+
+        <div id="map"></div>
+    </div>
+</body>
+</html>
