@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BB040F;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: #E59999;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .description {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .pdf-btn {
+    background-color: #fff;
+    color: #d97171;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .pdf-btn:hover {
+    background-color: #c94d4d;
+    color: #fff;
+  }
+  
+  .tracker {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .chart-container {
+    width: 45%;
+  }
+  
+  canvas {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  p {
+
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
