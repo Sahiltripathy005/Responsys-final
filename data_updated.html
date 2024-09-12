@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earthquake Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Earthquake of 7.1 magnitude hits Delhi and parts of Northern India</h1>
+    <div class="description">
+      <p>On January 26, 2001, a devastating earthquake struck the Indian state of Gujarat, with a magnitude of 7.7. The city of Bhuj and surrounding areas were severely impacted, with widespread destruction of buildings and infrastructure. The earthquake resulted in approximately 20,000 deaths and injured over 167,000 people. Rescue and relief operations were extensive, involving national and international aid organizations.</p>
+    </div>
+
+    <button id="generate-pdf" class="pdf-btn">Generate PDF</button>
+
+    <div class="tracker">
+      <div class="chart-container">
+        <canvas id="casualtyChart"></canvas>
+        <p>CASUALTY DATA</p>
+      </div>
+      <div class="chart-container">
+        <canvas id="deathChart"></canvas>
+        <p>DEATH COUNT</p>
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
